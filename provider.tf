@@ -6,10 +6,10 @@ terraform {
    }
  }
 
- backend "s3" {
-   bucket = "tf-surya-state"
-   key    = "state"
-   region = "ap-south-1"
- }
+// backend "s3" {
+//   bucket = "tf-surya-state"
+//   key    = "state"
+//   region = "ap-south-1"
+// }
 }
 
